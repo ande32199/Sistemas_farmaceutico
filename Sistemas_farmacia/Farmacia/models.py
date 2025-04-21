@@ -57,4 +57,3 @@ class DetalleVenta(models.Model):
         return f"{self.medicamento.nombre} - {self.cantidad} unidades"
 
 
-
